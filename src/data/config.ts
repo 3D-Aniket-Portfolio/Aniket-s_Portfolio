@@ -21,7 +21,7 @@ const config = {
   ],
   author: "Aniket Totawar",
   email: "aniketstotawar01@gmail.com",
-  site: "https://anikettotawar.vercel.app",
+  site: "https://aniket-s-portfolio-fm6e.vercel.app",
 
   // for github stars button
   githubUsername: "AniketTotawarKC-DAC",
