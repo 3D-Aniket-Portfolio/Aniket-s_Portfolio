@@ -1,45 +1,41 @@
 const config = {
-  title: "Naresh Khatri | Full-Stack Developer",
+  title: "Aniket Totawar | Full-Stack Developer",
   description: {
-    long: "Explore the portfolio of Naresh, a full-stack developer and creative technologist specializing in interactive web experiences, 3D animations, and innovative projects. Discover my latest work, including Coding Ducks, The Booking Desk, Ghostchat, and more. Let's build something amazing together!",
+    long: "Explore the portfolio of Aniket Totawar, a Full-Stack Developer skilled in Java, Spring Boot, React.js, and MySQL. Passionate about building scalable, high-performance applications with hands-on experience in RESTful APIs, JWT-based authentication, and AWS cloud deployment.",
     short:
-      "Discover the portfolio of Naresh, a full-stack developer creating interactive web experiences and innovative projects.",
+      "Portfolio of Aniket Totawar, a Full-Stack Developer specializing in Java, Spring Boot, React.js, and AWS.",
   },
   keywords: [
-    "Naresh",
+    "Aniket Totawar",
     "portfolio",
     "full-stack developer",
-    "creative technologist",
+    "Java developer",
+    "Spring Boot",
+    "React.js",
+    "AWS",
+    "MySQL",
     "web development",
-    "3D animations",
-    "interactive websites",
-    "Coding Ducks",
-    "The Booking Desk",
-    "Ghostchat",
-    "web design",
-    "GSAP",
-    "React",
-    "Next.js",
-    "Spline",
-    "Framer Motion",
+    "REST APIs",
+    "JWT authentication",
+    "CDAC",
   ],
-  author: "Naresh Khatri",
-  email: "naresh.khatri2345@gmail.com",
-  site: "https://nareshkhatri.site",
+  author: "Aniket Totawar",
+  email: "aniketstotawar01@gmail.com",
+  site: "https://anikettotawar.vercel.app",
 
   // for github stars button
-  githubUsername: "naresh-khatri",
+  githubUsername: "AniketTotawarKC-DAC",
   githubRepo: "3d-portfolio",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
-    twitter: "https://x.com/nothotchaddi",
-    linkedin: "https://www.linkedin.com/in/naresh-khatri/",
-    instagram: "https://www.instagram.com/hotchaddi",
-    facebook: "https://www.facebook.com/HotChaddi/",
-    github: "https://github.com/Naresh-Khatri",
+    twitter: "https://x.com/anikettotawar",
+    linkedin: "https://www.linkedin.com/in/aniket-totawar-15b555352",
+    instagram: "https://www.instagram.com/anikettotawar",
+    facebook: "https://www.facebook.com/anikettotawar",
+    github: "https://github.com/AniketTotawarKC-DAC",
   },
 };
 export { config };
