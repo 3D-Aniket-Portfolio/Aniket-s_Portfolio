@@ -11,6 +11,7 @@ import ResumeDoodle from "./resume-doodle";
 const RESUME_PATH = "/Aniket_Totawar_SD_Resume.pdf";
 
 export default function ResumeView() {
+  const resumeSrc = `${RESUME_PATH}?v=${Date.now()}`;
   return (
     <div className="flex min-h-screen flex-col font-sans">
       {/* Hide the global nav on mobile, only while this page is mounted */}
@@ -38,7 +39,7 @@ export default function ResumeView() {
           </Link>
           <Button>
             <a
-              href={RESUME_PATH}
+              href={resumeSrc}
               download
               className="flex gap-2 text-sm transition-colors hover:text-foreground"
             >
@@ -59,7 +60,7 @@ export default function ResumeView() {
           className="aspect-[210/297] w-full overflow-hidden rounded-2xl bg-white shadow-xl"
         >
           <ResumeDoodle
-            src={`${RESUME_PATH}#toolbar=0&navpanes=0&view=FitH`}
+            src={`${resumeSrc}#toolbar=0&navpanes=0&view=FitH`}
             title="Aniket Totawar — Résumé"
           />
         </motion.div>
